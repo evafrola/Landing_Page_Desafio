@@ -16,40 +16,87 @@
     <main>
         <!-- Breve presentación sobre mi -->
         <section id="Presentacion" class="bg-[#7A9E7E] flex flex-row px-10 py-14 justify-between">
-            <div class="content-center">
-                <h1 class="text-[#001A23] font-bold text-3xl">Hola, soy Eva.</h1>
-                <h1 class="text-[#001A23] font-bold text-3xl" >Programadora Front-End</h1>
-                <p class="text-[#31493C] font-semibold pt-8 w-80">
+            <div class="content-center px-9">
+                <h1 class="text-[#001A23] font-bold text-5xl">Hola, soy Eva.</h1>
+                <h1 class="text-[#001A23] font-bold text-5xl" >Programadora Front-End</h1>
+                <p class="text-[#31493C] font-semibold pt-8 w-1/2 text-xl">
                     Soy una persona proactiva que se nutre de los desafíos y busca constantemente desarrollar mis habilidades. 
                     Actualmente, mi objetivo es seguir una carrera en desarrollo Front-End y conseguir un empleo en el sector TI.
                 </p>
             </div>
-            <img class="rounded-lg w-80" src="img/cat7.jpg">
+            <img class="rounded-2xl mr-36" src="img/cat7.jpg">
         </section>
 
-        <section id="Mis_Habilidades" class="bg-[#E8F1F2]">
-            <h1>Mis habilidades</h1>
-            <p>Tengo un amplio conocimiento en HTML, CSS y JavaScript, también cuento con un conocimiento base en: </p>
+        <section id="Mis_Habilidades" class="bg-[#E8F1F2] text-center py-16">
+            <h1 class="text-[#001A23] font-bold text-3xl pb-5">Mis habilidades</h1>
+            <p class="text-[#31493C] font-semibold text-lg pb-5">Tengo un amplio conocimiento en HTML, CSS y JavaScript, también cuento con un conocimiento base en: </p>
             <!-- Bloque de lenguajes y Framework que se utilizar -->
-            <div>
-                <div>
-                    <h1>TailwindCSS</h1>
-                    <p>He estado utilizando este Framework durante un tiempo.</p>
-                </div>
-                <div>
-                    <h1>NodeJS</h1>
-                    <p>He creado proyectos de API REST, base de datos, etc.</p>
+            <div class="flex flex-row px-10 py-10 justify-around">
+
+                <div class="w-64">
+                    <h1 class="text-[#001A23] font-bold text-lg pb-3">TailwindCSS</h1>
+                    <p class="text-[#31493C] font-semibold">He estado utilizando este Framework durante un tiempo.</p>
                 </div>
 
-                <div>
-                    <h1>Processing</h1>
-                    <p>Recién estoy comenzando a aprender este lenguaje para expandir mi conocimiento</p>
+                <div class="w-64">
+                    <h1 class="text-[#001A23] font-bold text-lg pb-3">NodeJS</h1>
+                    <p class="text-[#31493C] font-semibold">He creado proyectos de API REST, base de datos, etc.</p>
+                </div>
+
+                <div class="w-64">
+                    <h1 class="text-[#001A23] font-bold text-lg pb-3">Processing</h1>
+                    <p class="text-[#31493C] font-semibold">Recién estoy comenzando a aprender este lenguaje para expandir mi conocimiento</p>
                 </div>
             </div>
+
         </section>
 
-        <section id="Mi_Experiencia" class="bg-[#7A9E7E]">
+        <!-- Sección sobre los proyectos que he realizado -->
+        <section id="Mi_Experiencia" class="bg-[#7A9E7E] py-20 px-10 text-center">
+            <h1 class="text-[#001A23] font-bold text-4xl pb-5">Mi experiencia</h1>
+            <p class="text-[#31493C] font-semibold text-2xl pb-10">
+                Estos son algunos de los proyectos que he realizo, ordenados cronológicamente,
+                de los mas recientes a los ams antiguos.
+            </p>
+            <button>GitHub</button>
+            <!-- Todos mis proyectos ordenados cronológicamente -->
+            <div>
+                <div>
+                    <img>
+                    <h1>Portfolio</h1>
+                    <p>Un portfolio hecho para un desafió de HolaJuniors, se utilizo HTML y TailwindCSS</p>
+                </div>
 
+                <div>
+                    <img>
+                    <h1>Snake Game</h1>
+                    <p>El famoso juego de Snake hecho con JS, HTML y CSS</p>
+                </div>
+
+                <div>
+                    <img>
+                    <h1>Task List React</h1>
+                    <p>Una pagina para crear notas realizada con React</p>
+                </div>
+
+                <div>
+                    <img>
+                    <h1>Task List LocalStorage</h1>
+                    <p>Una pagina para agregar tareas y que quede guardado en el local storage</p>
+                </div>
+
+                <div>
+                    <img>
+                    <h1>Taller API</h1>
+                    <p>Proyecto creado como practica para crear una REST API</p>
+                </div>
+
+                <div>
+                    <img>
+                    <h1>Taller Responsive</h1>
+                    <p>Proyecto creado para un curso probando una pagina responsive</p>
+                </div>
+            </div>
         </section>
     </main>
     <footer class="bg-[#E8F1F2]">
